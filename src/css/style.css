@@ -1,3 +1,70 @@
+body {
+	margin: 0px 50px 30px 50px;
+	text-align: center;
+	background-color: #DDFDFF;
+}
+
+.bigimg {
+	border-radius: 3%;
+	width: 1500px;
+	height: 999px;
+
+}
+
+h1 {
+	color: #043205;
+	font-family: "Playfair Display SC", serif;
+	font-size: 80px;
+}
+
+h2 {
+	color: #043205;
+	font-family: "Source Sans 3", sans-serif;
+	font-size: 40px;
+}
+
+h3 {
+	color: #043205;
+	font-family: "Playfair Display SC", serif;
+	font-size: 40px;
+}
+
+p {
+	color: #043205;
+	font-family: "Source Sans 3", sans-serif;
+	font-size: 25px;
+}
+
+.attractions {
+	color: #043205;
+	font-family: "Playfair Display SC", serif;
+	font-size: 30px;
+}
+
+.streetfood {
+	border-radius: 3%;
+}
+
+.food {
+	color: #043205;
+	font-family: "Source Sans 3", sans-serif;
+	font-size: 25px;
+}
+
+ul {
+	color: #043205;
+	font-family: "Source Sans 3", sans-serif;
+	font-size: 25px;
+}
+
+a {
+	color: #043205;
+	font-family: "Source Sans 3", sans-serif;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+/* Commenting this off so I can use for future usage
 @media screen and (width >= 320px) {
 	#some-id {
 		color: red;
@@ -9,3 +76,4 @@
 		color: red;
 	}
 }
+*/
