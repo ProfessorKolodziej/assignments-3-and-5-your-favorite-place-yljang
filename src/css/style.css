@@ -1,5 +1,6 @@
 body {
 	margin: 0px 50px 30px 50px;
+	padding: 0px 10px 50px 10px;
 	text-align: center;
 	background-color: #DDFDFF;
 }
@@ -15,18 +16,25 @@ h1 {
 	color: #043205;
 	font-family: "Playfair Display SC", serif;
 	font-size: 80px;
+	margin-bottom: 0px;
 }
 
 h2 {
 	color: #043205;
 	font-family: "Source Sans 3", sans-serif;
 	font-size: 40px;
+	margin-top: 10px;
+	margin-bottom: 40px;
 }
 
 h3 {
 	color: #043205;
 	font-family: "Playfair Display SC", serif;
 	font-size: 40px;
+}
+
+.intro {
+	margin-bottom: 60px;
 }
 
 p {
@@ -39,22 +47,31 @@ p {
 	color: #043205;
 	font-family: "Playfair Display SC", serif;
 	font-size: 30px;
+	margin-bottom: 60px;
+}
+
+.attraction_img {
+	border-radius: 3%;
 }
 
 .streetfood {
 	border-radius: 3%;
+	width: 750px;
+	height: 422px;
 }
 
 .food {
 	color: #043205;
 	font-family: "Source Sans 3", sans-serif;
 	font-size: 25px;
+	margin-bottom: 60px;
 }
 
 ul {
 	color: #043205;
 	font-family: "Source Sans 3", sans-serif;
 	font-size: 25px;
+	margin-bottom: 60px;
 }
 
 a {
