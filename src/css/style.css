@@ -3,26 +3,27 @@ body {
 	padding: 0px 10px 50px 10px;
 	text-align: center;
 	background-color: #DDFDFF;
+	list-style-position: inside;
 }
 
 .main_img {
 	border-radius: 3%;
-	width: 1500px;
-	height: 999px;
-
+	width: 100%;
+	display: block;
+	margin: auto;
 }
 
 h1 {
 	color: #043205;
 	font-family: "Playfair Display SC", serif;
-	font-size: 80px;
+	font-size: 40px;
 	margin-bottom: 0px;
 }
 
 h2 {
 	color: #043205;
 	font-family: "Source Sans 3", sans-serif;
-	font-size: 40px;
+	font-size: 20px;
 	margin-top: 10px;
 	margin-bottom: 40px;
 }
@@ -30,7 +31,7 @@ h2 {
 h3 {
 	color: #043205;
 	font-family: "Playfair Display SC", serif;
-	font-size: 40px;
+	font-size: 20px;
 }
 
 .intro {
@@ -40,37 +41,46 @@ h3 {
 p {
 	color: #043205;
 	font-family: "Source Sans 3", sans-serif;
-	font-size: 25px;
+	font-size: 15px;
 }
 
 .attractions {
 	color: #043205;
 	font-family: "Playfair Display SC", serif;
-	font-size: 30px;
-	margin-bottom: 60px;
+	font-size: 15px;
+	list-style-type: none;
+	margin-left: -30px;
 }
 
 .attraction_img {
 	border-radius: 3%;
+	display: block;
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+.attraction_list {
+	margin-bottom: 20px;
 }
 
 .streetfood {
 	border-radius: 3%;
-	width: 750px;
-	height: 422px;
+	width: 100%;
+	display: block;
+	margin: auto;
 }
 
-.food {
+.food_list {
 	color: #043205;
 	font-family: "Source Sans 3", sans-serif;
-	font-size: 25px;
+	font-size: 15px;
 	margin-bottom: 60px;
 }
 
-ul {
+.tips {
 	color: #043205;
 	font-family: "Source Sans 3", sans-serif;
-	font-size: 25px;
+	font-size: 15px;
 	margin-bottom: 60px;
 }
 
@@ -78,19 +88,99 @@ a {
 	color: #043205;
 	font-family: "Source Sans 3", sans-serif;
 	font-weight: bold;
-	font-size: 25px;
+	font-size: 15px;
 }
 
-/* Commenting this off so I can use for future usage
-@media screen and (width >= 320px) {
-	#some-id {
-		color: red;
+/* Tablet Sizing*/
+@media screen and (min-width: 768px) {
+	h1 {
+		font-size: 60px;
+	}
+
+	h2 {
+		font-size: 30px;
+	}
+
+	p {
+		font-size: 20px;
+	}
+
+	h3 {
+		font-size: 30px;
+	}
+
+	.attractions {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		margin-left: -20px;
+	}
+
+	.attraction_list {
+		font-size: 25px;
+		margin-right: 20px;
+	}
+
+	.tips {
+		font-size: 20px;
+	}
+
+	.food_list {
+		font-size: 20px;
+	}
+
+	a {
+		font-size: 20px;
 	}
 }
 
-@media screen and (width >= 500px) {
-	#some-id {
-		color: red;
+/* Desktop Sizing*/
+@media screen and (min-width: 1024px) {
+	h1 {
+		font-size: 80px;
+	}
+
+	h2 {
+		font-size: 40px;
+	}
+
+	p {
+		font-size: 25px;
+	}
+
+	h3 {
+		font-size: 40px;
+	}
+
+	.attractions {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		margin-left: -20px;
+	}
+
+	.attraction_list {
+		font-size: 30px;
+		margin-right: 20px;
+	}
+
+	.tips {
+		font-size: 25px;
+	}
+
+	.food {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.streetfood_caption {
+		margin-left: 20px;
+		text-align: left;
+	}
+
+	.food_list {
+		font-size: 25px;
+	}
+
+	a {
+		font-size: 25px;
 	}
 }
-*/
